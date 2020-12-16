@@ -2,15 +2,14 @@
 
 Term: Fall 2020
 
-+ Team #
-+ Projec title: Lorem ipsum dolor sit amet
++ Team # 2
++ Projec title: Relationship between Trump's Tweets and stock returns 
 + Team members
-	+ team member 1
-	+ team member 2
-	+ team member 3
-	+ team member 4
-	+ team member 5
-+ Project summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	+ Elise Nguyen
+	+ Natalie Williams
+	+ Yue Liang 
+	+ Luyao Sun 
++ Project summary: Used two LSTM models (sklearn LSTM and TextBlob), to classify the sentiment of Donald Trump's tweets during the peak of the trade war (January 2018- December 2019). We filtered his tweets for content related to the trade war, then regressed the polarity of his tweets against the Shanghai Stock Exchange, and the ETF's FXI and S&P 500 which track the largest companies in China and US respectively. First, we used intra-day 30 minute intervals from the stock exchanges and regressed this against Trump's tweets thoughout the day. These results proved poor, so we changed our approach and aggregated the sentiment of Trump's trade war related tweets into two sections: while the stock market was open and closed (time zones were accounted for). This yielded better results, with a Point-biserial correlation coefficient of 0.XX for sklearn LSTM and 0.XX for TextBlob LSTM. After this regression, we decided to randomly sample and check the results of the Sentiment Analysis. We found that, the LSTM and TextBlob results greatly differed from the team member's personal evaluations. Sklearn's LSTM agreed with team members evaluates 46% of the time, whereas, Textblob had a 59% similarity. Due to this, our recommendation to improve on this work would be to refine the NLP models and try to imbude context into the Sentiment Analysis. 
 	
 **Contribution statement**: ([default](doc/a_note_on_contributions.md)) All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement. 
 
