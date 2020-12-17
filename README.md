@@ -16,7 +16,7 @@ First, we used intra-day 30 minute intervals from the stock exchanges and regres
 + Project Main File is included in: [Main.pdf](https://github.com/TZstatsADS/Fall2020-Project5-fall2020-project5-group-2/blob/master/doc/Main.pdf)
 	
 **Contribution statement**: 
-+ Elise Nguyen : gathered financial data for S&P, BABA intraday 30 minute prices, processed and merged with lstm and textblob data, ran regression & find correlation. Did same thing with S&P, SSE, and FXI index daily prices. Helped put together ppt presentation. Manually went through 100 tweets and categorized into positive, negative and neutral sentiments.
++ Elise Nguyen : gathered financial data for S&P, BABA intraday 30 minute prices, processed and merged these data with lstm and textblob data, ran regression & find correlation. Found ways to improve results (i.e. try daily prices, evaluate NLP algorithms performance, evaluate Trump's tweets). Did same thing with S&P, SSE, and FXI index daily prices. Helped put together ppt presentation. Manually went through 100 tweets and categorized into positive, negative and neutral sentiments.
 	
 + Natalie Williams : made the preliminary Sentiment Analysis model to determine the feasibility of the project. She acquired the data sets that would be used for training and testing the LSTM Natural Language Processing Models. She implemented two different LSTM's models (balanced and unbalanced) and balanced the highly imbalanced dataset that would serve as the model training data. She also assisted with preparing the presentation files. Manually went through 100 tweets and classify as positive, negative or neutral for comparison with model results. 
 
