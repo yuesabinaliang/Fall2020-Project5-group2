@@ -18,8 +18,11 @@ First, we used intra-day 30 minute intervals from the stock exchanges and regres
 	
 + Natalie Williams : made the preliminary Sentiment Analysis model to determine the feasibility of the project. She acquired the data sets that would be used for training and testing the LSTM Natural Language Processing Models. She implemented two different LSTM's models (balanced and unbalanced) and balanced the highly imbalanced dataset that would serve as the model training data. She also assisted with preparing the presentation files. Manually went through 100 tweets and classify as positive, negative or neutral for comparison with model results. 
 
-+ Yue Liang 
++ Yue Liang : Proposed the project and model; collected the dataset of trump's tweets; preprocessed the dataset with natural language processing models; trained the Textblob Sentiment Analysis model; predict the sentiment analysis for trump's tweets; collected and preprocess the financial data of Chinese Market Index with timeframe 30 minutes; filtered the tweets to China-related tweets; assisted the aggregation of the sentiment analysis outcome into one-day sentiment outcome; prepared the main file; formated notebook and organized the files in github; formated the presentation slides. 
+
 + Luyao Sun 
+Sliced the dataset of trump's tweets, assisted with the training of Textblob model; conducted aggregation of the sentiment analysis outcome into one-day sentiment outcome 
+
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
 
