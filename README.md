@@ -20,8 +20,7 @@ First, we used intra-day 30 minute intervals from the stock exchanges and regres
 
 + Yue Liang : Proposed the project and model; collected the dataset of trump's tweets; preprocessed the dataset with natural language processing models; trained the Textblob Sentiment Analysis model; predict the sentiment analysis for trump's tweets; collected and preprocessed the financial data of Chinese Market Index with 30 minutes timeframe; filtered the tweets to China-related tweets; assisted converting the time of the tweets to the time zone of the financial indexes; assisted with aggregation of the sentiment analysis outcome into one-day sentiment outcome; prepared the main file and knitted to pdf files; formated notebook and organized the files in Github; formated the presentation slides. 
 
-+ Luyao Sun 
-Sliced the dataset of trump's tweets; assisted with the training of Textblob model; converted the time of the tweets to the time zone of the financial indexes; conducted aggregation of the sentiment analysis outcome into one-day sentiment outcome.
++ Luyao Sun : Sliced the dataset of trump's tweets; assisted with the training of Textblob model; converted the time of the tweets to the time zone of the financial indexes; conducted aggregation of the sentiment analysis outcome into one-day sentiment outcome.
 
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
